@@ -353,6 +353,12 @@ public class WordleGUI extends JFrame implements KeyListener{
     }
     
     private void endGame(Map<String, Object> gameState) {
+
+        if (gameTimer != null) { // If user can end this Timer will be ended
+            gameTimer.cancel();
+            gameTimer.purge(); // clear Timer
+        }
+        
         String message;
         if (gameState.get("won").equals(true)) {
             message = "Congratulations! You guessed the word: " + ((String) gameState.get("targetWord")).toUpperCase();
