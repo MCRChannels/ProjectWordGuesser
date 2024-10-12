@@ -308,7 +308,7 @@ public class WordleGUI extends JFrame implements KeyListener{
     private void updateBoard(String[] result) {
         for (int i = 0; i < result.length; i++) {
             cells[currentRow][i].setOpaque(true);
-            switch (result[i]) {
+            switch (result[i].trim()) {
                 case "green":
                     cells[currentRow][i].setBackground(new Color(106, 170, 100));
                     break;
