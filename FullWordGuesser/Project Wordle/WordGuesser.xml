@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\USER\Desktop\Project Wordle\Project Wordle.jar</jar>
+  <outfile>C:\Users\USER\Desktop\Project Wordle\WordGuesser.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>Test.Main</mainClass>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>true</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.2.0.0</fileVersion>
+    <txtFileVersion>1.2.0.0</txtFileVersion>
+    <fileDescription>WordGuesser Application</fileDescription>
+    <copyright>Copyright (C) 2024 NotThisDayZ Student</copyright>
+    <productVersion>1.2.0.0</productVersion>
+    <txtProductVersion>1.2.0.0</txtProductVersion>
+    <productName>WordGuesser</productName>
+    <companyName>NotThisDayZ Student</companyName>
+    <internalName>NotThisDayZ Student</internalName>
+    <originalFilename>WordGuesser.exe</originalFilename>
+    <trademarks>NotThisDayZ Student</trademarks>
+    <language>THAI</language>
+  </versionInfo>
+</launch4jConfig>
